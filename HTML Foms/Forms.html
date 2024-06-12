@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>forms</h1>
+    <form action="/tacos">
+      <p>
+        <label for="username">Enter a Username:</label>
+        <input type="text" placeholder="username" id="username" required/>
+      </p>
+      <p>
+        <label for="pass" >Enter Your Password:</label>
+      <input type="password" placeholder="password" id="pass" required />
+      </p>
+      <p>
+        <label for="age" >Enter Your Age:</label>
+      <input type="number" placeholder="user_age" id="age" min="18"  />
+      </p>
+      <p>
+        <label for="color">Choose a Color-&gt;</label>
+      <input type="color" id="color"/>
+      </p>
+      <label for="cheese">do yo like cheese?</label>
+      <input type="checkbox" name="cheese" />
+      </p>
+      <button type="button">submit</button>
+      <button type="submit">submit</button>
+     
+    </form>
+
+    <h1>Hi'jacking Searching</h1>
+
+    <h2>Search Google</h2>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button type="submit">search google</button>
+    </form>
+    <h2>Search Youtube</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button type="submit">search youtube</button>
+    </form>
+    <p>
+    <form action="#">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">do you agree ?</label>
+        <button type="submit">submit</button>
+    </form>
+    </p>
+    <form action="#">
+        <P>Choose The Color</P>
+        <div>
+        <input type="radio" name="color" id="red">
+        <label for="red">RED</label>
+        </div>
+        <div>
+        <input type="radio" name="color" id="green">
+        <label for="green">GREEN</label>
+        </div>
+        <div>
+        <input type="radio" name="color" id="blue">
+        <label for="blue">BLUE</label>
+        </div>
+        <p>
+        <button type="button">submit</button>
+
+
+    </p>
+    <label for="request">type your request</label>
+    <textarea name="user_request" id="request" cols="20"> </textarea>
+    </form>
+    <p>
+        <label for="swift">Choose the Variant</label>
+        <select name="variant" id="swift">
+        <option></option>
+        <option value="lxi">lxi</option>
+        <option value="vxi">vxi</option>
+        <option value="zxi">zxi</option>
+    </select>
+    <p>
+        <label for="vol">Volume</label>
+    <input type="range" name="volume" value="50" id="vol">
+</p>
+    </p>
+
+    
+        
+
+  </body>
+</html>

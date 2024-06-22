@@ -139,3 +139,16 @@ border:1px solid #e1f1ff;
 	color: white;
 
 }
+
+@media(min-width:900px){
+	.panel{
+		flex-direction: row;
+	}
+	.pricing-plan{
+		border-bottom:none;
+		border-right: 1px solid #e1f1ff;
+	}
+	.pricing-plan:last-child{
+		border-right: none;
+	}
+}

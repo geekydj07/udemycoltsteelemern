@@ -7,10 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
 </head>
-<body>
+<body class="container">
    <h1 class="display-1 text-center">Bootsrap Playground</h1>
-   <h1 class="display-3">Buttons</h1>
+   <h2 class="display-3">Buttons <span class="badge text-bg-secondary">8</span></h2>
     <h1>Placeholder</h1>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-success btn-lg">Primary</button>
     <button type="button" class="btn btn-info">Primary</button>
@@ -18,8 +23,19 @@
     <button type="button" class="btn btn-info">Primary</button>
     <button class="btn btn-outline-Info btn-sm">INFO</button>
     <button type="button" class="btn btn-success" disabled>Success Disabled</button>
+   
+    <button class="btn btn-primary">Updates<span class="badge text-bg-secondary">4</span></button>   
     <h2 class="display-2">Typography</h2>
-    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis aspernatur vero, fugit culpa sapiente optio debitis quae modi ad sed animi consequatur corrupti earum consequuntur quod reprehenderit. Perferendis, totam.
+    <button class="btn btn-primary">Notifications<span class="badge rounded-pill text-bg-secondary">4</span></button>   
+    <h2 class="display-2">Typography</h2>
+
+    <h3>Button Groups</h3>
+    <div class="btn-group" role="group">
+    <button class="btn btn-primary">One</button>
+    <button class="btn btn-danger">Two</button>
+    <button class="btn btn-primary">Three</button>
+</div>
+    <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis aspernatur vero, fugit culpa sapiente optio debitis quae modi ad sed animi consequatur corrupti earum consequuntur quod reprehenderit. Perferendis, totam.
     Doloremque fugiat sequi quis enim maxime possimus recusandae nisi doloribus cumque ea aliquid corporis fugit temporibus excepturi molestiae, aliquam aspernatur minima voluptatum tempora quasi? Vitae in amet nulla temporibus labore?
     Corrupti, accusantium aliquid asperiores iure ad accusamus tempore odit at ex maiores dignissimos consequatur fugiat, eaque a quis voluptates illo veniam modi harum vel expedita qui fuga, nihil blanditiis. Inventore?</p>
     <blockquote class="blockquote text-right bg-light"><p class="mb-0 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis pariatur, soluta fugiat ex molestias quo quia ipsum asperiores, quas error ipsam quis quibusdam iusto ad aperiam! Nulla laborum exercitationem voluptatem.</p></blockquote>

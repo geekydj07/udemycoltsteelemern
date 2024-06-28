@@ -20,6 +20,6 @@ if(age<5){
     console.log("You are a child, You pay $10")
 }else if(age<65){
     console.log("You are an adult,You pay $20")
-}else if(age>65{
+}else if(age>65){
     console.log("You are a senior citizen,You pay $10")
 }

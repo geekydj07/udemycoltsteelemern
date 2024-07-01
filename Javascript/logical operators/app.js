@@ -13,17 +13,24 @@
 //65 or more free
 
 
-const age=90;
+// const age=90;
 
-if(age>=0 && age<5 || age>=65){
-    console.log("free")
-}
-else if(age>=5 && age<10){
-    console.log("pay $10")
-}
-else if(age>=10 && age<65){
-    console.log(" pay $20")
-}
-else{
-    console.log("Invalid Age")
+// if(age>=0 && age<5 || age>=65){
+//     console.log("free")
+// }
+// else if(age>=5 && age<10){
+//     console.log("pay $10")
+// }
+// else if(age>=10 && age<65){
+//     console.log(" pay $20")
+// }
+// else{
+//     console.log("Invalid Age")
+// }
+
+
+const firstname=prompt("ENTER YOUR FIRST NAME")
+
+if(!firstname){
+   firstname=prompt("TRY AGAINNN!!!!!");
 }
